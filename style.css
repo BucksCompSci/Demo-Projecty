@@ -1,0 +1,17 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.with-sidebar {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  flex-basis: 20ch;
+}
+
+.not-sidebar {
+}
